@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./CurrentWeather.css";
-import { useState } from "react";
 
 export default function CurrentWeather({ data }) {
   useEffect(() => {
@@ -16,10 +15,6 @@ export default function CurrentWeather({ data }) {
   const selectedDate = new Date(currentLocalTime);
 
   console.log(selectedDate);
-
-  const [time, setTime] = useState(selectedDate);
-
-  console.log(time);
 
   const date = selectedDate.toLocaleString("en-GB", {
     day: "numeric",

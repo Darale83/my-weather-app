@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   WEATHER_API_URL,
   WEATHER_API_KEY,

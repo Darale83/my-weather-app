@@ -4,17 +4,13 @@
   color: #dbdbdb;
 }
 
-.title {
-  font-size: 23px;
-  font-weight: 700;
-}
-
 .daily-item {
   background: rgba(63, 170, 189, 0.3);
   backdrop-filter: blur(8px);
   border-radius: 15px;
   height: 40px;
   margin: 5px;
+
   align-items: center;
   cursor: pointer;
   display: flex;
