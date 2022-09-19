@@ -4,3 +4,12 @@
   margin-left: 270px;
   width: 50%;
 }
+
+@media (max-width: 1000px) {
+  .search {
+    width: 500px;
+    font-size: 0.8rem;
+    margin-left: 40px;
+    width: 80%;
+  }
+}
